@@ -8,7 +8,6 @@ import { HttpClient } from '@angular/common/http';
 })
 export class AppComponent {
   title = 'angular-17';
-  data;
   http: HttpClient;
 
   constructor(http: HttpClient) {
